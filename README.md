@@ -2,8 +2,12 @@
 
   Endpoint unico: A API oferece um único endpoint acessível por meio do método GET, que pode ser encontrado em: https://api-random-cm8d.onrender.com/. Ao fazer uma solicitação GET para este endpoint, você receberá uma resposta contendo uma mensagem aleatória.
 
-  Exemplo:
+  Endpoint:
 
+    https://api-random-cm8d.onrender.com/
+
+  Exemplo:
+    
 ```js
 async function api(){
   const res = await fetch("https://api-random-cm8d.onrender.com/")
