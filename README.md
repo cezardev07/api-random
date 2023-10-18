@@ -1,10 +1,10 @@
 ### Detalhes da API:
 
-  Endpoint unico: A API oferece um único endpoint acessível por meio do método GET, que pode ser encontrado em: https://api-random-cm8d.onrender.com/. Ao fazer uma solicitação GET para este endpoint, você receberá uma resposta contendo uma mensagem aleatória.
+  Endpoint unico: A API oferece um único endpoint acessível por meio do método GET, que pode ser encontrado em: https://api-random.vercel.app/. Ao fazer uma solicitação GET para este endpoint, você receberá uma resposta contendo uma mensagem aleatória.
 
   Endpoint:
 
-    https://api-random.vercel.app/home
+    https://api-random.vercel.app/
 
   Exemplo:
     
