@@ -4,13 +4,13 @@
 
   Endpoint:
 
-    https://api-random-cm8d.onrender.com/
+    https://api-random.vercel.app/home
 
   Exemplo:
     
 ```js
 async function api(){
-  const res = await fetch("https://api-random-cm8d.onrender.com/")
+  const res = await fetch("https://api-random.vercel.app/")
   const data = await res.json()
   
   return data
@@ -32,9 +32,9 @@ async function api(){
 
   A API é um projeto de código aberto e é totalmente gratuita para uso. Os desenvolvedores podem acessá-la e integrá-la em seus aplicativos, websites e projetos pessoais ou comerciais sem custo algum. A gratuidade desta API faz parte de seu propósito educacional e de estudo.
 
-### Latência na Render:⚠️
+### Latência na Vercel:⚠️
 
-  Devido à sua gratuidade, a API pode apresentar latência variável em seus tempos de resposta, uma vez que a plataforma Render é utilizada para hospedar o serviço. A latência pode ocorrer especialmente durante picos de uso, quando muitos usuários estão acessando a API simultaneamente. É importante estar ciente dessa possível latência ao incorporar a API em seus projetos.
+  Devido à sua gratuidade, a API pode apresentar latência variável em seus tempos de resposta, uma vez que a plataforma Vercel é utilizada para hospedar o serviço. A latência pode ocorrer especialmente durante picos de uso, quando muitos usuários estão acessando a API simultaneamente. É importante estar ciente dessa possível latência ao incorporar a API em seus projetos.
 
 - É importante ressaltar que este projeto é voltado exclusivamente para fins educacionais e de aprendizado.
 
