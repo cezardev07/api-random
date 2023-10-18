@@ -1,4 +1,4 @@
-export const array = [
+export const array: string[] = [
   "Acredite em si mesmo e tudo é possível.",
   "O sucesso começa no momento em que você decide tentar.",
   "Se você acredita, faz sentido sonhar.",
