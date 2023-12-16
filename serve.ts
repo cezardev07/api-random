@@ -29,9 +29,10 @@ serve.listen(PORT, callback);
 
 function callback(){
   return console.log(`
-    serve is running PORT: ${PORT}
+    Serve is running PORT: ${PORT}
     
+    - http://localhost:3333/
     - http://localhost:3333/home  
-    - http://localhost:3333/  
+    - http://localhost:3333/docs  
   `);
 }
