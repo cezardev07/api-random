@@ -52,7 +52,6 @@
     }
   },
   "components": {
-    "securitySchemes": {},
     "schemas": {
       "MessageResponse": {
         "type": "object",
