@@ -31,8 +31,8 @@ function callback(){
   return console.log(`
     Serve is running PORT: ${PORT}
     
-    - http://localhost:3333/
-    - http://localhost:3333/home  
-    - http://localhost:3333/docs  
+    - http://localhost:${PORT}/
+    - http://localhost:${PORT}/home  
+    - http://localhost:${PORT}/docs  
   `);
 }
