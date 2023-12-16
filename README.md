@@ -24,6 +24,10 @@ async function api(){
 }
 ```
 
+### Documentação Completa da API:
+
+Para ter acesso à documentação completa da API, basta clicar 👉 [API Random - Documentação](https://api-random.vercel.app/docs)
+
 ### Recursos Principais:
 
   Mensagens Aleatórias: A API foi projetada para fornecer mensagens aleatórias toda vez que o endpoint é chamado.
@@ -38,7 +42,7 @@ async function api(){
 
 - É importante ressaltar que este projeto é voltado exclusivamente para fins educacionais e de aprendizado.
 
-### get started project
+### Get Started Project
 
     # clone o repositorio
     git clone < repositorio >
@@ -55,3 +59,4 @@ async function api(){
     yarn dev
     or
     npm run dev
+ 
