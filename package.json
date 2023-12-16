@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon --watch ts-node serve.ts",
     "build": "tsc",
-    "start": "ts-node serve.ts"
+    "start": "node serve.js"
   },
   "keywords": [],
   "author": "",
