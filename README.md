@@ -26,7 +26,9 @@ async function api(){
 
 ### Documentação Completa da API:
 
-Para ter acesso à documentação completa da API, basta clicar 👉 [API Random - Documentação](https://api-random.vercel.app/docs)
+Para ter acesso à documentação completa da API, basta clicar 👉 [API Random - Documentação](https://api-random.vercel.app/docs) 
+
+- **Observação:** Infelizmente, está documentação (redoc-try) pode não funcionar corretamente em alguns dispositivos. Recomenda-se tentar acessá-la utilizando um dispositivo alternativo, se necessário.
 
 ### Recursos Principais:
 
