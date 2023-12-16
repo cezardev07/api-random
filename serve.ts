@@ -19,14 +19,19 @@ serve.get("/home", (_request: Request, response: Response) => {
 serve.use("/doc", swaggerUi.serve);
 serve.get("/doc", swaggerUi.setup(swaggerDocumetation));
 serve.get("/swagger", (_request: Request, response: Response) => {
-  return response.sendFile(process.cwd() + "/swagger.json")
+  return response.sendFile(__dirname + "/swagger.json")
 })
 serve.get("/docs", (_request: Request, response: Response) => {
-  return response.sendFile(process.cwd() + "/index.html")
+  return response.sendFile(__dirname + "/index.html")
 })
 
 serve.listen(PORT, callback);
 
 function callback(){
-  return console.log(`serve is running PORT: ${PORT}`);
+  return console.log(`
+    serve is running PORT: ${PORT}
+    
+    - http://localhost:3333/home  
+    - http://localhost:3333/  
+  `);
 }
