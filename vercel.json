@@ -8,11 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/doc/(.*)",
-      "dest": "serve.ts"
-    },
-    {
-      "src": "/(.*)",
+      "src": "(.*)",
       "dest": "serve.ts"
     }
   ]
