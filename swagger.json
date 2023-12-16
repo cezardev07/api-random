@@ -1,0 +1,72 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API Random - Documentação",
+    "description": "Uma API que fornece mensagens aleatórias",
+    "contact": {
+      "github": "https://github.com/cezardev07"
+    },
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api-random.vercel.app/",
+      "description": "vercel"
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "Buscar Mensagens Aleatórias",
+        "description": "Esta rota é responsável por retornar mensagens aleatórias sempre que for chamada.",
+        "tags": ["Endpoint mensage - api random"],
+        "security": [],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "number",
+                      "description": "Código de status da resposta"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "Mensagem aleatória retornada"
+                    }
+                  },
+                  "example": {
+                    "status": 200,
+                    "message": "A única maneira de fazer um ótimo trabalho é amar o que você faz."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {},
+    "schemas": {
+      "MessageResponse": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "number",
+            "description": "Código de status da resposta"
+          },
+          "message": {
+            "type": "string",
+            "description": "Mensagem aleatória retornada"
+          }
+        }
+      }
+    }
+  }
+}
